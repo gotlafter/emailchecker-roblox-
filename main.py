@@ -122,7 +122,7 @@ while True:
 
                         time.sleep(1)
 
-                webhook_url = ''
+                webhook_url = open("webhook", "r").read().strip() if os.path.exists("webhook") else ''
                 embed = {
                     "embeds": [
                         {
