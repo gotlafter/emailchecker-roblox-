@@ -122,7 +122,7 @@ while True:
 
                         time.sleep(1)
 
-                webhook_url = 'https://discord.com/api/webhooks/1301366782212182046/OHgIVoDVja2oy2reIGy-nry-BjQ-KaoGdKkkZsmtqDmn2GBsfU4hwsp4c29JUsO0H1Fy'
+                webhook_url = ''
                 embed = {
                     "embeds": [
                         {
